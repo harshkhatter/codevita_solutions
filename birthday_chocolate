@@ -5,7 +5,8 @@ import os
 import random
 import re
 import sys
-
+##########################################################################################################
+# https://www.hackerrank.com/contests/target-codevita-1/challenges/the-birthday-bar
 ###########################################################################################################
 # Complete the birthday function below.
 def birthday(s, d, m):
@@ -70,4 +71,5 @@ if __name__ == '__main__':
     fptr.write(str(result) + '\n')
 
     fptr.close()
-
+    
+# https://www.hackerrank.com/contests/target-codevita-1/challenges/the-birthday-bar
