@@ -7,6 +7,8 @@ import re
 import sys
 
 ############################################################################################################
+#https://www.hackerrank.com/contests/target-codevita-1/challenges/migratory-birds
+############################################################################################################
 # Complete the migratoryBirds function below.
 def migratoryBirds(arr):
     # Calling of migratoryBirds function with an argument 'arr' a list of birds seen in sequence
@@ -63,3 +65,7 @@ if __name__ == '__main__':
     fptr.write(str(result) + '\n')
 
     fptr.close()
+
+############################################################################################################
+#https://www.hackerrank.com/contests/target-codevita-1/challenges/migratory-birds
+############################################################################################################
