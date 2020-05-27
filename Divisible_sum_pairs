@@ -5,7 +5,8 @@ import os
 import random
 import re
 import sys
-
+#######################################################################################################
+# https://www.hackerrank.com/contests/target-codevita-1/challenges/divisible-sum-pairs
 #######################################################################################################
 # Complete the divisibleSumPairs function below.
 def divisibleSumPairs(n, k, ar):
@@ -60,3 +61,6 @@ if __name__ == '__main__':
     
 
     fptr.close()
+#######################################################################################################
+# https://www.hackerrank.com/contests/target-codevita-1/challenges/divisible-sum-pairs
+#######################################################################################################
