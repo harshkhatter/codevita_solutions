@@ -1,17 +1,15 @@
-# codevita_solutions
+Target Codevita 20 Day 1
 
-This Link will give you the solutions of coding problems available at Hackerrank.
+Description: 
 
-Problems are taken from Hackerrank and TCS Codevita challenge.
+These are solutions to the coding problems of the first challenge. Problems are taken from Hackerrank and TCS Codevita challenge. All the codes are compiled at Hackerrank editor and coded in the form of functions. Most of the solutions are built in an easy manner, so that new learners can also understand the code. Codes are well commented.
 
-All the codes are compiled at Hackerrank editor and coded in form of functions.
+The link to the problems are given below.   
 
-Most of the solutions are built in an easy manner, so that new learners can also understand the code.
+Happy Coding.
 
-Codes are well commented.
+https://www.hackerrank.com/contests/target-codevita-1/challenges/the-birthday-bar
 
+https://www.hackerrank.com/contests/target-codevita-1/challenges/divisible-sum-pairs
 
-
-Happy Coding :-) 
-
-All the Best
+https://www.hackerrank.com/contests/target-codevita-1/challenges/migratory-birds
