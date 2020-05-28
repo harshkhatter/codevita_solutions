@@ -18,6 +18,7 @@ int migratoryBirds(vector<int> arr) {
             mx = i -> second;
             res = i -> first;
         }
+    
     return res;
 }
 
