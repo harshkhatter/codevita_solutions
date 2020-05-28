@@ -13,3 +13,7 @@ Happy Coding!!
 |D-1|Birthday Chocolate|Easy|[Jump to problem](https://www.hackerrank.com/contests/target-codevita-1/challenges/the-birthday-bar)|[Jump to solution](https://github.com/harshkhatter/codevita_solutions/blob/master/Birthday_chocolate)|
 |D-2|Divisible Sum Pairs|Easy|[Jump to problem](https://www.hackerrank.com/contests/target-codevita-1/challenges/divisible-sum-pairs)|[Jump to solution](https://github.com/harshkhatter/codevita_solutions/blob/master/Divisible_sum_pairs)|
 |D-3|Migratory Birds|Easy|[Jump to problem](https://www.hackerrank.com/contests/target-codevita-1/challenges/migratory-birds)|[Jump to Solution](https://github.com/harshkhatter/codevita_solutions/blob/master/Migratory_birds)|
+
+
+## Issues?
+Found a bug or need some more explaining? Just create an issue & we'll try to resolve it as soon as possible :smile:
