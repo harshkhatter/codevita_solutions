@@ -1,3 +1,12 @@
+/*
+    * This question uses a very popular technique known as sliding window technique
+    * Here we process a 'window' of elements, in our question the size of window is 'm'
+    * In each iteration we first remove the last element from last window & 
+    * add the newest element in our window
+    * Time Complexity : O(s.size()) / O(n) where n is the number of elements in 's' array
+    * We are doing a single linear scan, so linear time complexity
+    * Space Complexity : O(1) or constant space, because we use only two extra variables
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -8,20 +17,22 @@ vector<string> split(const string &);
 
 // Complete the birthday function below.
 int birthday(vector<int> s, int d, int m) {
-    int res = 0, curr = 0;
+    int res = 0, curr = 0;                              //'res' is used to store our result &
+                                                        //'curr' is used to store our current window sum
     
-    for (int i = 0; i < m; ++i) {
-        curr += s[i];
+    for (int i = 0; i < m; ++i) {                       //This is the first loop in which we find 'curr'
+        curr += s[i];                                   //for first window in range [0, m)
     }
-    if (curr == d)
+    if (curr == d)                                      //If curr equals 'd' then we increase 'res' by 1
         ++res;
     
-    for (int i = 1; i <= (int)s.size() - m; ++i) {
-        curr += s[i + m - 1];
-        curr -= s[i - 1];
+    for (int i = 1; i <= (int)s.size() - m; ++i) {      //This loop is used to iterate from 2nd to last window
+        curr += s[i + m - 1];                           //For each window last element has to be removed from it
+        curr -= s[i - 1];                               //Here new element is being added in the window
         if (curr == d)
-            ++res;
+            ++res;                                      //If 'curr' equals 'd' then we increase 'res' by 1
     }
+    
     return res;
 }
 
