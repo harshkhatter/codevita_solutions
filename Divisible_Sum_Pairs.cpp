@@ -1,5 +1,6 @@
 /*
     * Since the size of array was so small (<= 100) a bruteforce solution will get accepted too.
+    * Suggested Reading : Algorithm analysis, worst case AC algorithm for given input of size 'n'.
     * We have used two nested loops and we check for every element if it is divisible by 'k'.
     * We use the modulo (%) operator to find the remainder. If remainder is 0 it means number is divisible.
     * Time Complexity : O(n * n), where 'n' is the size of the given array.
