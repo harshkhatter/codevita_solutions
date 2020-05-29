@@ -1,11 +1,12 @@
 /*
-    * This question uses a very popular technique known as sliding window technique
-    * Here we process a 'window' of elements, in our question the size of window is 'm'
+    * This question uses a very popular technique known as sliding window technique.
+    * Suggested Reading : Sliding window technique.
+    * Here we process a 'window' of elements, in our question the size of window is 'm'.
     * In each iteration we first remove the last element from last window & 
-    * add the newest element in our window
-    * Time Complexity : O(s.size()) / O(n) where n is the number of elements in 's' array
-    * We are doing a single linear scan, so linear time complexity
-    * Space Complexity : O(1) or constant space, because we use only two extra variables
+    * add the newest element in our window.
+    * Time Complexity : O(s.size()) / O(n) where n is the number of elements in 's' array.
+    * We are doing a single linear scan, so linear time complexity.
+    * Space Complexity : O(1) or constant space, because we use only two extra variables.
 */
 #include <bits/stdc++.h>
 
