@@ -1,3 +1,11 @@
+/*
+    * Since the size of array was so small (<= 100) a bruteforce solution will get accepted too
+    * We have used two nested loops and we check for every element if it is divisible by 'k'
+    * We use the modulo (%) operator to find the remainder. If remainder is 0 it means number is divisible
+    * Time Complexity : O(n * n), where 'n' is the size of the given array
+    * Space Complexity : O(1), because we're using only a single extra variable
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -7,6 +15,7 @@ vector<string> split_string(string);
 // Complete the divisibleSumPairs function below.
 int divisibleSumPairs(int n, int k, vector<int> ar) {
     int res = 0;
+    
     for (int i = 0; i < (int)ar.size(); ++i)
         for (int j = i + 1; j < (int)ar.size(); ++j)
             if ((ar[i] + ar[j]) % k == 0)
