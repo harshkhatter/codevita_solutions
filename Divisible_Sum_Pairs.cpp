@@ -1,9 +1,10 @@
 /*
-    * Since the size of array was so small (<= 100) a bruteforce solution will get accepted too
-    * We have used two nested loops and we check for every element if it is divisible by 'k'
-    * We use the modulo (%) operator to find the remainder. If remainder is 0 it means number is divisible
-    * Time Complexity : O(n * n), where 'n' is the size of the given array
-    * Space Complexity : O(1), because we're using only a single extra variable
+    * Since the size of array was so small (<= 100) a bruteforce solution will get accepted too.
+    * We have used two nested loops and we check for every element if it is divisible by 'k'.
+    * We use the modulo (%) operator to find the remainder. If remainder is 0 it means number is divisible.
+    * Time Complexity : O(n * n), where 'n' is the size of the given array.
+    * Space Complexity : O(1), because we're using only a single extra variable.
+    * A 2-pointer solution can be made too which can be used after sorting to reduce the complexity to O(n * lgn).
 */
 
 #include <bits/stdc++.h>
